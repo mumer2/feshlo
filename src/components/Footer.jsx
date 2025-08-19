@@ -33,7 +33,7 @@ export default function Footer() {
             <div className="flex flex-col space-y-2">
               <h3 className="font-semibold text-white mb-2">Quick Links</h3>
               <a href="/shop" className="hover:text-white transition">Shop</a>
-              <a href="/about" className="hover:text-white transition">About Us</a>
+              {/* <a href="/about" className="hover:text-white transition">About Us</a> */}
               <a href="/contact" className="hover:text-white transition">Contact</a>
               <a href="/faq" className="hover:text-white transition">FAQ</a>
             </div>
@@ -41,9 +41,9 @@ export default function Footer() {
             {/* Contact */}
             <div className="flex flex-col space-y-2">
               <h3 className="font-semibold text-white mb-2">Contact</h3>
-              <p>Support: <a href="mailto:support@example.com" className="hover:text-white transition">support@example.com</a></p>
+              <p>Support: <a href="feshloofficial@gmail.com" className="hover:text-white transition">feshloofficial@gmail.com</a></p>
               <p>Phone: <a href="tel:+923229199459" className="hover:text-white transition">+92 322 9199459</a></p>
-              <p>Address: 123 Fashion Street, Karachi, Pakistan</p>
+              <p>Faisalabad, Pakistan</p>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ export default function Footer() {
           {/* Bottom bar */}
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
             <div>© {new Date().getFullYear()} Feshlo. All rights reserved.</div>
-            <div className="mt-2 md:mt-0">COD • Free Returns • Secure Payment</div>
+            <div className="mt-2 md:mt-0">COD  • Secure Payment</div>
           </div>
         </div>
       </footer>

@@ -12,7 +12,7 @@ export default function Checkout() {
     address: "",
     city: "",
     postalCode: "",
-    country: "",
+    country: "Pakistan",
     note: "",
   });
 
@@ -54,7 +54,8 @@ const handlePlaceOrder = async () => {
 
   if (paymentMethod === "bank") {
     alert(
-      `Please pay using JazzCash number 03229199459 in advance to secure your order.\n5% discount applied!`
+      `Please pay using JazzCash in advance to secure your order.\n5% discount applied!
+      \n Account Number: 03229199459 \n Name: Muhammad Umer`
     );
   }
 
@@ -164,7 +165,7 @@ const handlePlaceOrder = async () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Order Summary</h3>
           <div className="border rounded p-4 space-y-3">
-            {cart.map((item) => (
+            {/* {cart.map((item) => (
               <div key={item.id} className="flex justify-between">
                 <span>
                   {item.name} x {item.quantity}
@@ -173,7 +174,23 @@ const handlePlaceOrder = async () => {
                   Rs {(item.salePrice ?? item.price) * item.quantity}
                 </span>
               </div>
-            ))}
+            ))} */}
+            {cart.map((item) => (
+  <div key={item.id} className="flex justify-between mb-2">
+    <div>
+      <span className="block font-medium">
+        {item.name} x {item.quantity}
+      </span>
+      <span className="block text-sm text-gray-500">
+        Code: {item.code || item.id}
+      </span>
+    </div>
+    <span className="font-semibold">
+      Rs {(item.salePrice ?? item.price) * item.quantity}
+    </span>
+  </div>
+))}
+
             <hr className="my-2" />
             <div className="flex justify-between font-semibold">
               <span>Shipping Fee:</span>
@@ -209,8 +226,11 @@ const handlePlaceOrder = async () => {
             </label>
             {paymentMethod === "bank" && (
               <div className="mt-2 text-sm text-blue-700">
-                Please pay using JazzCash number <b>03229199459</b> to secure
-                your order. 5% discount applied!
+                Please pay using JazzCash to secure
+                your order.<br/> <b>5% Discount</b> applied! <br/>
+                <b className="text-green-800">Account Details:</b> <br/>
+                Name: Muhammad Umer <br/>
+                Account Number: 03229199459 
               </div>
             )}
           </div>

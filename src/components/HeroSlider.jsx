@@ -5,23 +5,38 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// Images
+import Cover1 from '../assets/Cover1.png';
+import Cover2 from '../assets/Cover2.png';
+import Cover3 from '../assets/Cover3.png';
+import Cover4 from '../assets/Cover4.png';
+
+
+
+
 const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      img: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=1600&q=80',
+      img: Cover1,
       title: 'Big Sale',
       desc: 'Up to 50% off on all products'
     },
     {
       id: 2,
-      img: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1400&q=80',
+      img: Cover2,
       title: 'New Arrivals',
       desc: 'Shop the latest trends'
     },
     {
       id: 3,
-      img: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=80',
+      img: Cover3,
+      title: 'Best Sellers',
+      desc: 'Our most popular picks'
+    },
+      {
+      id: 4,
+      img: Cover4,
       title: 'Best Sellers',
       desc: 'Our most popular picks'
     }

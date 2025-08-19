@@ -1,4 +1,4 @@
-import { collections } from '../data/products';
+import { collections } from '../data/collections';
 import { Link } from 'react-router-dom';
 
 export default function Collections() {
