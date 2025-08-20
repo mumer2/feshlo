@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import AnnouncementBar from './components/AnnouncementBar';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Review from './components/Review';
 
 import Home from './pages/Home';
 import Shop from './pages/Shop';
@@ -43,6 +44,8 @@ export default function App() {
         </Routes>
       </main>
 
+      {/* Reviews */}
+      <Review/>
       {/* Footer */}
       <Footer />
     </div>

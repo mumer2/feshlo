@@ -27,7 +27,9 @@ export default function ProductCard({ product }) {
     >
       <div className="relative">
         <img
-          src={hovered && product.hoverImage ? product.hoverImage : product.image}
+          src={
+            hovered && product.hoverImage ? product.hoverImage : product.image
+          }
           alt={product.name}
           className="w-full h-64 object-cover transition-all duration-300"
         />
@@ -50,18 +52,44 @@ export default function ProductCard({ product }) {
         <div className="flex items-center space-x-2">
           {product.salePrice ? (
             <>
-              <span className="text-red-600 font-bold">
-                ₹{(product.salePrice / 100).toFixed(2)}
+              <span className="text-green-600 font-bold">
+                {new Intl.NumberFormat("en-PK", {
+                  style: "currency",
+                  currency: "PKR",
+                  minimumFractionDigits: 0,
+                }).format(product.salePrice)}
               </span>
               <span className="line-through text-gray-500">
-                ₹{(product.price / 100).toFixed(2)}
+                {new Intl.NumberFormat("en-PK", {
+                  style: "currency",
+                  currency: "PKR",
+                  minimumFractionDigits: 0,
+                }).format(product.price)}
               </span>
             </>
           ) : (
             <span className="font-bold">
-              ₹{(product.price / 100).toFixed(2)}
+              {new Intl.NumberFormat("en-PK", {
+                style: "currency",
+                currency: "PKR",
+                minimumFractionDigits: 0,
+              }).format(product.price)}
             </span>
           )}
+          {/* {product.salePrice ? (
+            <>
+              <span className="text-red-600 font-bold">
+                Rs.{(product.salePrice / 100).toFixed(2)}
+              </span>
+              <span className="line-through text-gray-500">
+                Rs{(product.price / 100).toFixed(2)}
+              </span>
+            </>
+          ) : (
+            <span className="font-bold">
+              Rs.{(product.price / 100).toFixed(2)}
+            </span>
+          )} */}
         </div>
       </div>
     </Link>

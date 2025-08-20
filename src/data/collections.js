@@ -1,6 +1,8 @@
 import MensCollection from "../assets/CollectionMens.png";
 import WomensCollection from "../assets/CollectionWomens.png";
 import AccessoriesCollection from "../assets/CollectionAccessories.png";
+import Cover1 from "../assets/Cover1.png";
+
 
 export const collections = [
   {
@@ -15,6 +17,12 @@ export const collections = [
     name: "Women's Collection",
     slug: "womens",
     image: WomensCollection,
+  },
+   {
+    id: 2,
+    name: "New Arrivals",
+    slug: "womens",
+    image: Cover1,
   },
   {
     id: 3,

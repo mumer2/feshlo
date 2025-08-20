@@ -23,7 +23,8 @@ export default function ProductList({ showTitle = true, searchQuery = "", collec
       {filteredProducts.length === 0 ? (
         <p className="text-gray-500">No products found.</p>
       ) : (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
           {filteredProducts.map((p) => (
             <ProductCard key={p.id} product={p} onOrder={setSelected} />
           ))}

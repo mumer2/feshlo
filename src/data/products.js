@@ -1,6 +1,28 @@
+// Watches
+import W1 from "../assets/Watches/W1.jpeg";
+import W1_1 from "../assets/Watches/W1-1.jpeg";
+
 
 
 export const products = [
+  {
+ // Watches
+    id: 'W1', 
+    name: 'Golden color beautiful Watch for Mens',         
+    price: 3800, 
+    salePrice: 1950, 
+    quantity: 25,
+    image: W1,
+    hoverImage: W1_1,
+     images: [
+      W1,
+      W1_1,
+    ],
+    
+    collection: 'Accessories',
+    category:'watches',
+    description: 'Cozy knit beanie to keep you warm during colder months.'
+  },
   { 
     id: 'p1', 
     name: 'Classic Tee',    
@@ -70,7 +92,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1600687812155-8fa274dfa58b?w=1200&auto=format&fit=crop',
     hoverImage: 'https://images.unsplash.com/photo-1600687812155-8fa274dfa58b?crop=entropy&cs=tinysrgb&w=1200&h=1200&fit=crop',
     collection: 'accessories',
-    category: 'watches',
+    category: 'womens',
     description: 'Premium leather belt with a classic buckle, built to last.'
   },
   { 
@@ -82,7 +104,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6dd?w=1200&auto=format&fit=crop',
     hoverImage: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6dd?crop=entropy&cs=tinysrgb&w=1200&h=1200&fit=crop',
     collection: 'accessories',
-    category: 'watches',
+    category: 'womens',
     description: 'Cozy knit beanie to keep you warm during colder months.'
   },
 ];
