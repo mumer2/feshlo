@@ -195,12 +195,37 @@ export default function ProductDetail() {
           </button>
         </div>
 
-        <div className="mt-6">
+        {/* <div className="mt-6">
           <h2 className="text-lg font-semibold">Product Description</h2>
           <p className="mt-2 text-gray-600">
             {product.description || "No description available."}
           </p>
-        </div>
+        </div> */}
+
+        <div className="mt-6">
+  <h2 className="text-lg font-semibold">Product Description</h2>
+
+  {Array.isArray(product.description) ? (
+    product.description.map((section, index) => (
+      <div key={index} className="mt-4">
+        <h3 className="text-md font-semibold text-gray-800">{section.heading}</h3>
+        <ul className="list-disc list-inside text-gray-600 space-y-1 mt-1">
+          {section.points.map((point, i) => (
+            <li key={i}>{point}</li>
+          ))}
+        </ul>
+      </div>
+    ))
+  ) : (
+    <p className="mt-2 text-gray-600">
+      {product.description || "No description available."}
+    </p>
+  )}
+</div>
+
+
+
+
       </div>
     </div>
   );

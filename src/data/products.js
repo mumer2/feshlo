@@ -5,6 +5,12 @@ import W2 from "../assets/Watches/W2.jpeg";
 import W2_1 from "../assets/Watches/W2-1.jpeg";
 import W2_2 from "../assets/Watches/W2-2.jpeg";
 import W2_3 from "../assets/Watches/W2-3.jpeg";
+import W3 from "../assets/Watches/W3.jpeg";
+import W3_1 from "../assets/Watches/W3-1.jpeg";
+import W3_2 from "../assets/Watches/W3-2.jpeg";
+import W3_3 from "../assets/Watches/W3-3.jpeg";
+import W3_4 from "../assets/Watches/W3-4.jpeg";
+
 
 
 
@@ -29,6 +35,7 @@ export const products = [
     category:'watches',
     description: 'Cozy knit beanie to keep you warm during colder months.'
   },
+
    {
     id: 'W2', 
     name: 'Luxury Mens Watch Stylish Black Dial and Brown shade with Stainless Steel Strap',         
@@ -39,39 +46,80 @@ export const products = [
     hoverImage: W2_2,
      images: [
       W2,
-      W2_1,W2_2,W2_3,
+      W2_1,W2_2,W2_3
     ],
     
     collection: 'Accessories',
     category:'watches',
-    description: [
-    `Specifications:
+   description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Positif",
+      "Dial Color: Black",
+      "Strap Material: Stainless Steel",
+      "Strap Color: Silver",
+      "Movement: Quartz",
+      "Display: Analog",
+      "Dual Time: Yes",
+      "Water Resistant: 100M (Not Guaranteed – Avoid Submerging)",
+      "Sub-Dials: Decorative (Non-Functional)",
+      "Clasp Type: Folding Clasp",
+      "Style: Fashion, Business, Daily Wear"
+    ]
+  },
+  {
+    heading: "Features",
+    points: [
+      "Durable stainless steel strap.",
+      "Perfect for casual and formal wear.",
+    ]
+  }
+]
 
-Brand: Positif
+  },
+  
+   {
+    id: 'W3', 
+    name: 'Luxury Mens Watch Stylish Black Dial and Brown shade with Stainless Steel Strap',         
+    price: 3500, 
+    salePrice: 1650, 
+    quantity: 25,
+    image: W3,
+    hoverImage: W3_1,
+     images: [
+      W3,
+      W3_1,W3_2,W3_3,W3_4
+    ],
+    
+    collection: 'Accessories',
+    category:'watches',
+   description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Positif",
+      "Dial Color: Black",
+      "Strap Material: Stainless Steel",
+      "Strap Color: Silver",
+      "Movement: Quartz",
+      "Display: Analog",
+      "Dual Time: Yes",
+      "Water Resistant: 100M (Not Guaranteed – Avoid Submerging)",
+      "Sub-Dials: Decorative (Non-Functional)",
+      "Clasp Type: Folding Clasp",
+      "Style: Fashion, Business, Daily Wear"
+    ]
+  },
+  {
+    heading: "Features",
+    points: [
+      "Durable stainless steel strap.",
+      "Perfect for casual and formal wear.",
+    ]
+  }
+]
 
-Dial Color: Blue
-
-Strap Material: Stainless Steel
-
-Strap Color: Silver
-
-Movement: Quartz
-
-Display: Analog
-
-Dual Time: Yes
-
-Water Resistant: 100M (Not Guaranteed – Avoid Submerging)
-
-Sub-Dials: Decorative (Non-Functional)
-
-Clasp Type: Folding Clasp
-
-Style: Fashion, Business, Daily Wear`,
-    "Durable stainless steel strap.",
-    "Perfect for casual and formal wear.",
-    "Water-resistant up to 50 meters."
-  ]
   },
   { 
     id: 'p1', 
