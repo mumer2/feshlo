@@ -1,12 +1,18 @@
 // Watches
 import W1 from "../assets/Watches/W1.jpeg";
 import W1_1 from "../assets/Watches/W1-1.jpeg";
+import W2 from "../assets/Watches/W2.jpeg";
+import W2_1 from "../assets/Watches/W2-1.jpeg";
+import W2_2 from "../assets/Watches/W2-2.jpeg";
+import W2_3 from "../assets/Watches/W2-3.jpeg";
+
+
 
 
 
 export const products = [
+  // Watches
   {
- // Watches
     id: 'W1', 
     name: 'Golden color beautiful Watch for Mens',         
     price: 3800, 
@@ -22,6 +28,50 @@ export const products = [
     collection: 'Accessories',
     category:'watches',
     description: 'Cozy knit beanie to keep you warm during colder months.'
+  },
+   {
+    id: 'W2', 
+    name: 'Luxury Mens Watch Stylish Black Dial and Brown shade with Stainless Steel Strap',         
+    price: 3500, 
+    salePrice: 1650, 
+    quantity: 25,
+    image: W2,
+    hoverImage: W2_2,
+     images: [
+      W2,
+      W2_1,W2_2,W2_3,
+    ],
+    
+    collection: 'Accessories',
+    category:'watches',
+    description: [
+    `Specifications:
+
+Brand: Positif
+
+Dial Color: Blue
+
+Strap Material: Stainless Steel
+
+Strap Color: Silver
+
+Movement: Quartz
+
+Display: Analog
+
+Dual Time: Yes
+
+Water Resistant: 100M (Not Guaranteed – Avoid Submerging)
+
+Sub-Dials: Decorative (Non-Functional)
+
+Clasp Type: Folding Clasp
+
+Style: Fashion, Business, Daily Wear`,
+    "Durable stainless steel strap.",
+    "Perfect for casual and formal wear.",
+    "Water-resistant up to 50 meters."
+  ]
   },
   { 
     id: 'p1', 
@@ -45,7 +95,8 @@ export const products = [
     hoverImage: 'https://images.unsplash.com/photo-1516826957135-700dedea698c?crop=entropy&cs=tinysrgb&w=1200&h=1200&fit=crop',
     collection: 'mens',
     category: 'mens-stitched',
-    description: 'A stylish denim jacket perfect for layering all year round.'
+    description: 'A stylish denim jacket perfect for layering all year round.',
+    sizes: ["S", "M", "L"], // ✅ only this product has sizes
   },
   { 
     id: 'p3', 
