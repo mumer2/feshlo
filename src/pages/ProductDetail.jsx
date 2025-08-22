@@ -72,6 +72,52 @@ export default function ProductDetail() {
     <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-10">
       {/* IMAGE SLIDER */}
       <div className="relative">
+  {/* Main Image */}
+  <div className="relative w-full h-[500px] rounded-lg shadow-md">
+    <img
+      src={images[activeImage]}
+      alt={product.name}
+      className="w-full h-full object-cover rounded-lg transition-all duration-500"
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    />
+
+    {/* Arrows */}
+    {images.length > 1 && (
+      <div className="absolute inset-0 flex items-center justify-between px-2">
+        <button
+          onClick={prevImage}
+          className="bg-black/50 text-white px-3 py-2 rounded-full hover:bg-black/70 transition"
+        >
+          {"<"}
+        </button>
+        <button
+          onClick={nextImage}
+          className="bg-black/50 text-white px-3 py-2 rounded-full hover:bg-black/70 transition"
+        >
+          {">"}
+        </button>
+      </div>
+    )}
+  </div>
+
+  {/* Thumbnails */}
+  <div className="flex mt-4 space-x-3 overflow-x-auto">
+    {images.map((img, index) => (
+      <img
+        key={index}
+        src={img}
+        alt={`thumb-${index}`}
+        className={`w-20 h-20 object-cover rounded-md cursor-pointer border-2 transition-all ${
+          index === activeImage ? "border-black" : "border-transparent"
+        }`}
+        onClick={() => setActiveImage(index)}
+      />
+    ))}
+  </div>
+</div>
+
+      {/* <div className="relative">
         <img
           src={images[activeImage]}
           alt={product.name}
@@ -110,7 +156,7 @@ export default function ProductDetail() {
             />
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* PRODUCT INFO */}
       <div>

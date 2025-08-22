@@ -10,6 +10,10 @@ import W3_1 from "../assets/Watches/W3-1.jpeg";
 import W3_2 from "../assets/Watches/W3-2.jpeg";
 import W3_3 from "../assets/Watches/W3-3.jpeg";
 import W3_4 from "../assets/Watches/W3-4.jpeg";
+import W4 from "../assets/Watches/W4.jpeg";
+import W4_1 from "../assets/Watches/W4-1.jpeg";
+import W4_2 from "../assets/Watches/W4-2.jpeg";
+import W4_3 from "../assets/Watches/W4-3.jpeg";
 
 
 
@@ -20,7 +24,7 @@ export const products = [
   // Watches
   {
     id: 'W1', 
-    name: 'Golden color beautiful Watch for Mens',         
+    name: 'Luxury Golden Diamond Texture Dial Mens Watch – Stylish Analog Watch for Casual & Formal Wear',         
     price: 3800, 
     salePrice: 1950, 
     quantity: 25,
@@ -33,7 +37,31 @@ export const products = [
     
     collection: 'Accessories',
     category:'watches',
-    description: 'Cozy knit beanie to keep you warm during colder months.'
+    description: [
+        {
+    heading: "Specifications",
+    points: [
+      "Brand: Positif",
+      "Dial Color: Golden",
+      "Strap Material: Stainless Steel",
+      "Strap Color: Golden",
+      "Movement: Quartz",
+      "Display: Analog",
+      "Dual Time: Yes",
+      "Clasp Type: Folding Clasp",
+      "Style: Fashion, Business, Daily Wear"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Diamond Shape Texture",
+      "Golden Straps",
+      "Furnished with White Stones"
+    ]
+  }
+]
+
   },
 
    {
@@ -62,7 +90,6 @@ export const products = [
       "Movement: Quartz",
       "Display: Analog",
       "Dual Time: Yes",
-      "Water Resistant: 100M (Not Guaranteed – Avoid Submerging)",
       "Sub-Dials: Decorative (Non-Functional)",
       "Clasp Type: Folding Clasp",
       "Style: Fashion, Business, Daily Wear"
@@ -81,9 +108,9 @@ export const products = [
   
    {
     id: 'W3', 
-    name: 'Luxury Mens Watch Stylish Black Dial and Brown shade with Stainless Steel Strap',         
+    name: 'KADMAN Mens Watch - Stylish Black Dial Stainless Steel Red Accent Timepiece for Modern Gents',         
     price: 3500, 
-    salePrice: 1650, 
+    salePrice: 1750, 
     quantity: 25,
     image: W3,
     hoverImage: W3_1,
@@ -94,33 +121,85 @@ export const products = [
     
     collection: 'Accessories',
     category:'watches',
-   description: [
+  description: [
   {
     heading: "Specifications",
     points: [
-      "Brand: Positif",
+      "Brand: KADMAN",
       "Dial Color: Black",
       "Strap Material: Stainless Steel",
-      "Strap Color: Silver",
-      "Movement: Quartz",
-      "Display: Analog",
-      "Dual Time: Yes",
-      "Water Resistant: 100M (Not Guaranteed – Avoid Submerging)",
-      "Sub-Dials: Decorative (Non-Functional)",
-      "Clasp Type: Folding Clasp",
-      "Style: Fashion, Business, Daily Wear"
+      "Strap Color: Black",
+      "Watch Case Material: Stainless Steel",
+      "Water Resistance: Not specified"
     ]
   },
   {
-    heading: "Features",
+    heading: "Product Overview",
     points: [
-      "Durable stainless steel strap.",
-      "Perfect for casual and formal wear.",
+      "Elevate your style with the KADMAN Men's Watch, a sophisticated timepiece that combines elegance with modern design.",
+      "Featuring a striking black dial with red accents, this watch is perfect for the contemporary man who values both form and function."
+    ]
+  },
+  {
+    heading: "Why Buy from Us?",
+    points: [
+      "High-Quality Product: We offer genuine KADMAN products, ensuring you receive a watch that meets the highest standards of quality and craftsmanship.",
+      "Competitive Pricing: Our prices are competitive, making it easy to stay within your budget without compromising on style or quality.",
+      "Excellent Customer Service: Our dedicated customer support team is here to assist you with any questions or concerns you may have."
+    ]
+  },
+  {
+    heading: "Order Now",
+    points: [
+      "Order now and experience the KADMAN difference!"
+    ]
+  }
+]
+  },
+
+    {
+    id: 'W4', 
+    name: 'Stylish Mens Blue Dial Quartz Watch – Stylish Stainless Steel Wristwatch for Mens',         
+    price: 3500, 
+    salePrice: 1700, 
+    quantity: 25,
+    image: W4,
+    hoverImage: W4_1,
+     images: [
+      W4,
+      W4_1,W4_2,W4_3
+    ],
+    
+    collection: 'Accessories',
+    category:'watches',
+   description: [
+ {
+    heading: "Key Features",
+    points: [
+      "Movement: Quartz",
+      "Dial Color: Blue with texture finish",
+      "Strap: Stainless Steel",
+      "Display: Analog",
+      "Water Resistance: Splash Resistant",
+      "Origin: Swiss Made",
+      "Ideal for: Men / Gents",
+      "Occasion: Business, Casual, Formal"
+    ]
+  },
+  {
+    heading: "Product Overview",
+    points: [
+      "This beautiful wristwatch for men is a timeless piece that adds a premium touch to your outfit.",
+      "A perfect gift for birthdays, anniversaries, or special events."
     ]
   }
 ]
 
   },
+
+
+
+  // Watch End
   { 
     id: 'p1', 
     name: 'Classic Tee',    
