@@ -5,10 +5,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Cover1 from '../assets/Cover1.png';
-import Cover2 from '../assets/Cover2.png';
-import Cover3 from '../assets/Cover3.png';
-import Cover4 from '../assets/Cover4.png';
+import Cover1 from '../assets/Cover1.webp';
+import Cover2 from '../assets/Cover2.webp';
+import Cover3 from '../assets/Cover3.webp';
+import Cover4 from '../assets/Cover4.webp';
 
 const HeroSlider = () => {
   const [loaded, setLoaded] = useState({});

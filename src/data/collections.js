@@ -1,7 +1,7 @@
-import MensCollection from "../assets/CollectionMens.png";
+import MensCollection from "../assets/CollectionMens.webp";
 import WomensCollection from "../assets/CollectionWomens.png";
 import AccessoriesCollection from "../assets/CollectionAccessories.png";
-import Cover1 from "../assets/Cover1.png";
+import Cover1 from "../assets/Cover1.webp";
 
 
 export const collections = [
