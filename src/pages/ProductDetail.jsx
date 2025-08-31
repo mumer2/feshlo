@@ -229,13 +229,13 @@ export default function ProductDetail() {
         <div className="mt-6 flex space-x-4">
           <button
             onClick={handleAddToCart}
-            className="px-6 py-2 bg-black text-white rounded"
+            className="px-6 py-2 bg-blue-600 text-white rounded cursor-pointer hover:bg-blue-700 transition"
           >
             Add to Cart
           </button>
           <button
             onClick={handleBuyNow}
-            className="px-6 py-2 bg-red-600 text-white rounded"
+            className="px-6 py-2 bg-green-600 text-white rounded cursor-pointer hover:bg-green-700 transition"
           >
             Buy Now
           </button>

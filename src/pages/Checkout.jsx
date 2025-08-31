@@ -227,7 +227,9 @@ export default function Checkout() {
                 <b>5% Discount</b> applied! <br />
                 <b className="text-green-800">Account Details:</b> <br />
                 Name: Muhammad Umer <br />
-                Account Number: 03229199459
+                Account Number: 03229199459  <br/>
+
+                <b>Note:</b>Share Paymemt ScreenShoot on WhatsApp for verification.
               </div>
             )}
           </div>
@@ -235,7 +237,7 @@ export default function Checkout() {
           <button
             onClick={handlePlaceOrder}
             disabled={loading}
-            className="mt-4 w-full bg-green-600 text-white px-6 py-2 rounded disabled:opacity-50"
+            className="mt-4 w-full bg-green-600 cursor-pointer text-white px-6 py-2 rounded disabled:opacity-50"
           >
             {loading ? "Placing Order..." : "Place Order"}
           </button>
