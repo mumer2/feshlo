@@ -226,7 +226,6 @@ export default function ProductDetail() {
 
       {/* ✅ REVIEWS SECTION */}
       <div className="mt-12">
-        <h2 className="text-xl font-bold mb-4">Customer Reviews</h2>
         <Review productId={product.id} />
       </div>
     </div>
