@@ -1,6 +1,6 @@
 // src/pages/ProductDetail.jsx
 import { useParams, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { products } from "../data/products";
 import { useCart } from "../context/CartContext";
 import Review from "../components/Review"; // ✅ Import Review component
@@ -13,6 +13,11 @@ export default function ProductDetail() {
   const { addToCart, clearCart } = useCart();
   const navigate = useNavigate();
   const [activeImage, setActiveImage] = useState(0);
+
+    // ✅ Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
   if (!product) return <p className="text-center mt-10">❌ Product not found</p>;
 
