@@ -12,6 +12,8 @@ import CollectionPage from './pages/CollectionPage';
 import ProductDetail from './pages/ProductDetail';
 import CartPage from './pages/CartPage'; // ⬅️ Import
 import Checkout from './pages/Checkout';
+import DeliveryProcess from './components/DeliveryProcess';
+import ReturnPolicy from './components/ReturnPolicy';
 
 export default function App() {
   return (
@@ -40,6 +42,9 @@ export default function App() {
 
           {/* CheckOut Page */}
           <Route path="/checkout" element={<Checkout />} />
+
+          <Route path="/delivery-process" element={<DeliveryProcess />} />
+<Route path="/return-policy" element={<ReturnPolicy />} />
         </Routes>
       </main>
       

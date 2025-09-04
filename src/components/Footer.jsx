@@ -11,21 +11,22 @@ export default function Footer() {
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-white">Feshlo</h2>
               <p className="text-gray-400">
-                Quality fashion delivered to your doorstep. COD available and free returns.
+                Quality fashion delivered to your doorstep. COD available.
+              <h2>Follow Us on Social Media for Latest Updates</h2> <br />
               </p>
               <div className="flex space-x-4 mt-2">
-                <a href="#" className="hover:text-white transition">
+                <a href="https://web.facebook.com/people/Feshlo/61576231335546/#" className="hover:text-white transition">
                   <FaFacebookF />
                 </a>
-                <a href="#" className="hover:text-white transition">
+                <a href="https://www.instagram.com/p/DN3TUfP2BP4/" className="hover:text-white transition">
                   <FaInstagram />
                 </a>
-                <a href="#" className="hover:text-white transition">
+                {/* <a href="#" className="hover:text-white transition">
                   <FaTwitter />
                 </a>
                 <a href="#" className="hover:text-white transition">
                   <FaLinkedinIn />
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -33,16 +34,26 @@ export default function Footer() {
             <div className="flex flex-col space-y-2">
               <h3 className="font-semibold text-white mb-2">Quick Links</h3>
               <a href="/shop" className="hover:text-white transition">Shop</a>
-              {/* <a href="/about" className="hover:text-white transition">About Us</a> */}
               <a href="/contact" className="hover:text-white transition">Contact</a>
-              <a href="/faq" className="hover:text-white transition">FAQ</a>
+              <a href="/return-policy" className="hover:text-white transition">Return Policy</a>
+              <a href="/delivery-process" className="hover:text-white transition">Delivery Process</a>
             </div>
 
             {/* Contact */}
             <div className="flex flex-col space-y-2">
               <h3 className="font-semibold text-white mb-2">Contact</h3>
-              <p>Support: <a href="feshloofficial@gmail.com" className="hover:text-white transition">feshloofficial@gmail.com</a></p>
-              <p>Phone: <a href="tel:+923229199459" className="hover:text-white transition">+92 322 9199459</a></p>
+              <p>
+                Support:{" "}
+                <a href="mailto:feshloofficial@gmail.com" className="hover:text-white transition">
+                  feshloofficial@gmail.com
+                </a>
+              </p>
+              <p>
+                Phone:{" "}
+                <a href="tel:+923229199459" className="hover:text-white transition">
+                  +92 322 9199459
+                </a>
+              </p>
               <p>Faisalabad, Pakistan</p>
             </div>
           </div>
@@ -52,7 +63,7 @@ export default function Footer() {
           {/* Bottom bar */}
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
             <div>© {new Date().getFullYear()} Feshlo. All rights reserved.</div>
-            <div className="mt-2 md:mt-0">COD  • Secure Payment</div>
+            <div className="mt-2 md:mt-0">COD • Secure Payment</div>
           </div>
         </div>
       </footer>
