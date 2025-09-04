@@ -54,7 +54,7 @@ export default function Footer() {
                   +92 322 9199459
                 </a>
               </p>
-              <p>Faisalabad, Pakistan</p>
+              <p>Punjab, Pakistan</p>
             </div>
           </div>
 
