@@ -33,10 +33,10 @@ export default function Footer() {
             {/* Links */}
             <div className="flex flex-col space-y-2">
               <h3 className="font-semibold text-white mb-2">Quick Links</h3>
-              <a href="/shop" className="hover:text-white transition">Shop</a>
-              <a href="/contact" className="hover:text-white transition">Contact</a>
-              <a href="/return-policy" className="hover:text-white transition">Return Policy</a>
-              <a href="/delivery-process" className="hover:text-white transition">Delivery Process</a>
+              <a href="feshlo.netlify.app/shop" className="hover:text-white transition">Shop</a>
+              <a href="feshlo.netlify.app/contact" className="hover:text-white transition">Contact</a>
+              <a href="feshlo.netlify.app/return-policy" className="hover:text-white transition">Return Policy</a>
+              <a href="feshlo.netlify.app/delivery-process" className="hover:text-white transition">Delivery Process</a>
             </div>
 
             {/* Contact */}
