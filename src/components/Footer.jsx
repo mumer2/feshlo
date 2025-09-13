@@ -1,6 +1,15 @@
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { useEffect } from "react";
+import { useLocation, Link } from "react-router-dom";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
+  const { pathname } = useLocation();
+
+  // 👇 Scroll to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <footer className="bg-gray-900 text-gray-300 mt-16">
@@ -12,31 +21,39 @@ export default function Footer() {
               <h2 className="text-2xl font-bold text-white">Feshlo</h2>
               <p className="text-gray-400">
                 Quality fashion delivered to your doorstep. COD available.
-              <h2>Follow Us on Social Media for Latest Updates</h2> <br />
+                <h2>Follow Us on Social Media for Latest Updates</h2> <br />
               </p>
               <div className="flex space-x-4 mt-2">
-                <a href="https://web.facebook.com/people/Feshlo/61576231335546/#" className="hover:text-white transition">
+                <a
+                  href="https://web.facebook.com/people/Feshlo/61576231335546/#"
+                  className="hover:text-white transition"
+                >
                   <FaFacebookF />
                 </a>
-                <a href="https://www.instagram.com/p/DN3TUfP2BP4/" className="hover:text-white transition">
+                <a
+                  href="https://www.instagram.com/p/DN3TUfP2BP4/"
+                  className="hover:text-white transition"
+                >
                   <FaInstagram />
                 </a>
-                {/* <a href="#" className="hover:text-white transition">
-                  <FaTwitter />
-                </a>
-                <a href="#" className="hover:text-white transition">
-                  <FaLinkedinIn />
-                </a> */}
               </div>
             </div>
 
-            {/* Links */}
+            {/* Quick Links */}
             <div className="flex flex-col space-y-2">
               <h3 className="font-semibold text-white mb-2">Quick Links</h3>
-              <a href="feshlo.netlify.app/shop" className="hover:text-white transition">Shop</a>
-              <a href="feshlo.netlify.app/contact" className="hover:text-white transition">Contact</a>
-              <a href="feshlo.netlify.app/return-policy" className="hover:text-white transition">Return Policy</a>
-              <a href="feshlo.netlify.app/delivery-process" className="hover:text-white transition">Delivery Process</a>
+              <Link to="/shop" className="hover:text-white transition">
+                Shop
+              </Link>
+              <Link to="/contact" className="hover:text-white transition">
+                Contact
+              </Link>
+              <Link to="/return-policy" className="hover:text-white transition">
+                Return Policy
+              </Link>
+              <Link to="/delivery-process" className="hover:text-white transition">
+                Delivery Process
+              </Link>
             </div>
 
             {/* Contact */}
@@ -44,13 +61,19 @@ export default function Footer() {
               <h3 className="font-semibold text-white mb-2">Contact</h3>
               <p>
                 Support:{" "}
-                <a href="mailto:feshloofficial@gmail.com" className="hover:text-white transition">
+                <a
+                  href="mailto:feshloofficial@gmail.com"
+                  className="hover:text-white transition"
+                >
                   feshloofficial@gmail.com
                 </a>
               </p>
               <p>
                 Phone:{" "}
-                <a href="tel:+923229199459" className="hover:text-white transition">
+                <a
+                  href="tel:+923229199459"
+                  className="hover:text-white transition"
+                >
                   +92 322 9199459
                 </a>
               </p>
