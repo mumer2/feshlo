@@ -28,12 +28,11 @@ export default function Navbar() {
       label: "Mens",
       dropdown: true,
       subCategories: [
-        { label: "Shirts", category: "shirts" },
-        { label: "stitched", category: "mens-stitched" },
-        { label: "Unstitched", category: "mens-unstitched" }
+        { label: "Casual Shirts", category: "casual-shirt" },
+        { label: "Formal Shirts", category: "formal-shirt" },
       ]
     },
-    { to: "/shop?category=womens", label: "Womens" },
+    // { to: "/shop?category=womens", label: "Womens" },
     { to: "/shop?category=watches", label: "Watches" },
     { to: "/contact", label: "Contact" },
   ];

@@ -5,8 +5,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Cover1 from '../assets/Cover1.webp';
-import Cover2 from '../assets/Cover2.webp';
+import Cover1 from '../assets/Mens/Casual Shirt.webp';
+import Cover2 from '../assets/Mens/Formal Shirt.webp';
 import Cover3 from '../assets/Cover3.webp';
 import Cover4 from '../assets/Cover4.webp';
 
