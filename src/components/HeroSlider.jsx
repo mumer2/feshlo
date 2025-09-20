@@ -5,10 +5,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Cover1 from '../assets/Mens/Casual Shirt.webp';
-import Cover2 from '../assets/Mens/Formal Shirt.webp';
-import Cover3 from '../assets/Cover3.webp';
-import Cover4 from '../assets/Cover4.webp';
+import Cover1 from '../assets/Cover1.webp';
+import Cover2 from '../assets/Mens/CasualShirt1.webp';
+import Cover3 from '../assets/Mens/FormalShirt1.webp';
+import Cover4 from '../assets/Mens/Formal Wear.webp';
 
 const HeroSlider = () => {
   const [loaded, setLoaded] = useState({});
@@ -21,7 +21,7 @@ const HeroSlider = () => {
   ];
 
   return (
-    <div className="w-full h-[500px]">
+    <div className="w-full h-[600px]">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation

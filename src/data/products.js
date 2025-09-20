@@ -47,8 +47,8 @@ export const products = [
       MCS1_3,
     ],
     
-    collection: 'Accessories',
-    category:'watches',
+    collection: 'MCS',
+    category:'casual-shirt',
    description: [
     {
       heading: "Specifications",

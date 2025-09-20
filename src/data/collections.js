@@ -1,5 +1,5 @@
-import MensCollection from "../assets/CollectionMens.webp";
-import WomensCollection from "../assets/CollectionWomens.png";
+import MensCasualShirts from "../assets/Mens/Casual Shirt.webp";
+import MensFormalShirts from "../assets/Mens/FormalShirt1.webp";
 import AccessoriesCollection from "../assets/CollectionAccessories.png";
 import Cover1 from "../assets/Cover1.webp";
 
@@ -7,28 +7,22 @@ import Cover1 from "../assets/Cover1.webp";
 export const collections = [
   {
     id: 1,
-    name: "Men's Collection",
-    slug: "mens",
-    image: MensCollection,
+    name: "Mens Casual Shirts",
+    slug: "MCS",
+    image: MensCasualShirts,
       
   },
   {
     id: 2,
-    name: "Women's Collection",
-    slug: "womens",
-    image: WomensCollection,
+    name: "Mens Formal Shirts",
+    slug: "MFS",
+    image: MensFormalShirts,
   },
    {
-    id: 2,
+    id: 3,
     name: "New Arrivals",
     slug: "womens",
     image: Cover1,
-  },
-  {
-    id: 3,
-    name: "Accessories",
-    slug: "accessories",
-    image: AccessoriesCollection,
   },
 ];
 

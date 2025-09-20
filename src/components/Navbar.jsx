@@ -113,7 +113,7 @@ export default function Navbar() {
                   <div key={link.label} className="relative">
                     <button
                       onClick={() => setMensDropdownDesktop(!mensDropdownDesktop)}
-                      className="py-2 px-4 text-gray-700 hover:text-black font-medium flex items-center gap-1"
+                      className="py-2 px-4 text-gray-600 hover:text-black flex items-center gap-1"
                     >
                       {link.label}{" "}
                       <FiChevronDown
