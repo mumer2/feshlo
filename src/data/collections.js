@@ -1,6 +1,5 @@
 import MensCasualShirts from "../assets/Mens/Casual Shirt.webp";
 import MensFormalShirts from "../assets/Mens/FormalShirt1.webp";
-import AccessoriesCollection from "../assets/CollectionAccessories.png";
 import Cover1 from "../assets/Cover1.webp";
 
 
