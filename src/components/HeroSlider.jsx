@@ -21,7 +21,7 @@ const HeroSlider = () => {
   ];
 
   return (
-    <div className="w-full h-[600px]">
+    <div className="w-full h-[500px]">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
