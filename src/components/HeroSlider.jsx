@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import Cover1 from '../assets/Mens/CasualShirt2.webp';
 import Cover2 from '../assets/Mens/FormalShirt2.webp';
 import Cover3 from '../assets/Mens/CasualShirt1.webp';
-import Cover4 from '../assets/Mens/FormalShirt4.webp';
+import Cover4 from '../assets/Collections/Watches.webp';
 
 const HeroSlider = () => {
   const [loaded, setLoaded] = useState({});
@@ -16,8 +16,8 @@ const HeroSlider = () => {
   const slides = [
     { id: 1, img: Cover1, title: 'Casual Shirt', desc: 'Up to 50% off' },
     { id: 2, img: Cover2, title: 'Formal Shirt', desc: 'Shop the latest trends' },
-    { id: 3, img: Cover3, title: 'Best Sellers', desc: 'Our most popular picks' },
-    { id: 4, img: Cover4, title: 'Best Sellers', desc: 'Our most popular picks' },
+    { id: 3, img: Cover3, title: 'Casual Shirt', desc: 'Our most popular picks' },
+    { id: 4, img: Cover4, title: 'Watches', desc: 'Our most popular picks' },
   ];
 
   return (

@@ -34,8 +34,8 @@ export const products = [
   {
     id: 'MCS1', 
     name: 'Mens Gingham Check Shirt for Casual & Smart Casual Wear',         
-    price: 4800, 
-    salePrice: 3250, 
+    price: 5499, 
+    salePrice: 4250, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS1,
@@ -47,8 +47,8 @@ export const products = [
       MCS1_3,
     ],
     
-    collection: 'MCS',
-    category:'casual-shirt',
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
    description: [
     {
       heading: "Specifications",
@@ -90,7 +90,7 @@ export const products = [
       W1_1,
     ],
     
-    collection: 'Accessories',
+    collection: 'watch',
     category:'watches',
     description: [
         {
@@ -132,7 +132,7 @@ export const products = [
       W2_1,W2_2,W2_3
     ],
     
-    collection: 'Accessories',
+    collection: 'watch',
     category:'watches',
    description: [
   {
@@ -174,7 +174,7 @@ export const products = [
       W3_1,W3_2,W3_3,W3_4
     ],
     
-    collection: 'Accessories',
+    collection: 'watch',
     category:'watches',
   description: [
   {
@@ -225,7 +225,7 @@ export const products = [
       W4_1,W4_2,W4_3
     ],
     
-    collection: 'Accessories',
+    collection: 'watch',
     category:'watches',
    description: [
  {
