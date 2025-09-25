@@ -36,6 +36,12 @@ export default function Footer() {
                 >
                   <FaInstagram />
                 </a>
+                 <a
+                  href="https://whatsapp.com/channel/0029VbATyOw4Y9lj3kWjOV18"
+                  className="hover:text-white transition"
+                >
+                  <FaWhatsapp/>
+                </a>
               </div>
             </div>
 

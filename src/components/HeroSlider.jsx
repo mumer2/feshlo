@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import Cover1 from '../assets/Mens/CasualShirt2.webp';
 import Cover2 from '../assets/Mens/FormalShirt2.webp';
 import Cover3 from '../assets/Mens/CasualShirt1.webp';
-import Cover4 from '../assets/Mens/FormalShirt3.webp';
+import Cover4 from '../assets/Mens/FormalShirt4.webp';
 
 const HeroSlider = () => {
   const [loaded, setLoaded] = useState({});
