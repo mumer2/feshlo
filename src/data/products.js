@@ -13,16 +13,22 @@ import W2_1 from "../assets/Watches/W2-1.jpeg";
 import W2_2 from "../assets/Watches/W2-2.jpeg";
 import W2_3 from "../assets/Watches/W2-3.jpeg";
 
-import W3 from "../assets/Watches/W3.jpeg";
-import W3_1 from "../assets/Watches/W3-1.jpeg";
-import W3_2 from "../assets/Watches/W3-2.jpeg";
-import W3_3 from "../assets/Watches/W3-3.jpeg";
-import W3_4 from "../assets/Watches/W3-4.jpeg";
+import W3 from "../assets/Watches/W3.webp";
+import W3_1 from "../assets/Watches/W3-1.webp";
+import W3_2 from "../assets/Watches/W3-2.webp";
 
 import W4 from "../assets/Watches/W4.jpeg";
 import W4_1 from "../assets/Watches/W4-1.jpeg";
 import W4_2 from "../assets/Watches/W4-2.jpeg";
 import W4_3 from "../assets/Watches/W4-3.jpeg";
+
+import W5 from "../assets/Watches/girlswatch1.webp";
+import W5_1 from "../assets/Watches/girlswatch.webp";
+import W5_2 from "../assets/Watches/girlswatch2.webp";
+
+import W6 from "../assets/Watches/Hublot.webp";
+import W6_1 from "../assets/Watches/Hublot-1.webp";
+import W6_2 from "../assets/Watches/Hublot-2.webp";
 
 
 
@@ -39,7 +45,7 @@ export const products = [
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS1,
-    hoverImage: MCS1_1,
+    hoverImage: MCS1_2,
      images: [
       MCS1,
       MCS1_1,
@@ -171,7 +177,7 @@ export const products = [
     hoverImage: W3_1,
      images: [
       W3,
-      W3_1,W3_2,W3_3,W3_4
+      W3_1,W3_2,
     ],
     
     collection: 'watch',
@@ -212,7 +218,7 @@ export const products = [
 ]
   },
 
-    {
+   {
     id: 'W4', 
     name: 'Stylish Mens Blue Dial Quartz Watch – Stylish Stainless Steel Wristwatch for Mens',         
     price: 3500, 
@@ -245,6 +251,98 @@ export const products = [
     heading: "Product Overview",
     points: [
       "This beautiful wristwatch for men is a timeless piece that adds a premium touch to your outfit.",
+      "A perfect gift for birthdays, anniversaries, or special events."
+    ]
+  }
+]
+
+  },
+
+
+    {
+    id: 'W5', 
+    name: 'Stylish Floral Quartz Ladies Watch – Aqua Green Strap | Women Watches| Watch for Women',         
+    price: 1999, 
+    salePrice: 999, 
+    quantity: 25,
+    image: W5,
+    hoverImage: W5_1,
+     images: [
+      W5,
+      W5_1,W5_2
+    ],
+    
+    collection: 'watch',
+    category:'watches',
+   description: [
+ {
+    heading: "Key Features",
+    points: [
+      "Elegant floral dial design",
+
+"Aqua green durable silicone strap",
+
+"Precise quartz movement",
+
+"Lightweight and comfortable",
+
+"Adjustable buckle clasp",
+
+"Perfect for casual and formal wear",
+
+"Ideal gift option for women",
+    ]
+  },
+  {
+    heading: "Product Overview",
+    points: [
+      "This beautiful wristwatch for women is a timeless piece that adds a premium touch to your outfit.",
+      "A perfect gift for birthdays, anniversaries, or special events."
+    ]
+  }
+]
+
+  },
+
+
+  {
+    id: 'W6', 
+    name: 'Luxury Hublot Style Chronograph Watch for Men – Premium Design with Rubber Strap',         
+    price: 3599, 
+    salePrice: 1999, 
+    quantity: 0,
+    image: W6,
+    hoverImage: W6_2,
+     images: [
+      W6,
+      W6_1,W6_2
+    ],
+    
+    collection: 'watch',
+    category:'watches',
+   description: [
+ {
+    heading: "Key Features",
+    points: [
+     " Dial Shape: Round",
+
+"Display: Analog",
+
+"Strap Material: Rubber",
+
+"Dial Color: Black",
+
+"Strap Color: Black",
+
+"Movement: Quartz",
+
+"Style: Business, Casual, Fashion",
+    ]
+  },
+  {
+    heading: "Product Overview",
+    points: [
+      "Upgrade your style with this luxury Hublot-style chronograph men's watch – a perfect blend of class and functionality. Designed with a sleek stainless steel casing and a textured black dial, this timepiece adds a bold and modern touch to any outfit.",
       "A perfect gift for birthdays, anniversaries, or special events."
     ]
   }
