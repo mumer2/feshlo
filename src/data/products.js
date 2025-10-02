@@ -4,6 +4,10 @@ import MCS1_1 from "../assets/CasualShirt/Mens-CasualShirts1.webp";
 import MCS1_2 from "../assets/CasualShirt/Mens-CasualShirts2.webp";
 import MCS1_3 from "../assets/CasualShirt/Mens-CasualShirts3.webp";
 
+import MCS2 from "../assets/CasualShirt/RedBlack-CheckShirt.webp";
+import MCS2_1 from "../assets/CasualShirt/RedBlack-CheckShirt1.webp";
+import MCS2_2 from "../assets/CasualShirt/RedBlack-CheckShirt2.webp";
+
 // Watches
 import W1 from "../assets/Watches/W1.jpeg";
 import W1_1 from "../assets/Watches/W1-1.jpeg";
@@ -38,7 +42,7 @@ import W6_2 from "../assets/Watches/Hublot-2.webp";
 export const products = [
 // Mens Casual Shirts
   {
-    id: 'MCS1', 
+    id: 'GWMCS1', 
     name: 'Mens Gingham Check Shirt for Casual & Smart Casual Wear',         
     price: 5499, 
     salePrice: 4250, 
@@ -77,6 +81,50 @@ export const products = [
       ]
     }
   ]
+
+  },
+
+  {
+    id: 'RBMCS2', 
+    name: 'Red & Black Checkered Casual Shirt for Mens',         
+    price: 5299, 
+    salePrice: 3699, 
+    quantity: 25,
+    sizes: ["M", "L"], // ✅ only this product has sizes
+    image: MCS2,
+    hoverImage: MCS2_2,
+     images: [
+      MCS2,
+      MCS2_1,
+      MCS2_2,
+    ],
+    
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
+   description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Feshlo",
+      "Style: Red & Black Checkered",
+      "Fit: Regular Fit",
+      "Collar: Standard Spread Collar",
+      "Sleeve Length: Long Sleeve with Buttoned Cuffs",
+      "Material: Premium breathable cotton blend"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Classic red and black checkered pattern with subtle green and blue highlights",
+      "Neat folded design with sharp detailing",
+      "Smooth button closure for a refined look",
+      "Versatile styling – perfect for casual and semi-formal wear",
+      "Soft, durable fabric for everyday comfort"
+    ]
+  }
+]
+
 
   },
 
