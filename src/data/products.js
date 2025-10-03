@@ -1,8 +1,9 @@
 //Mens Casual Shirts
-import MCS1 from "../assets/CasualShirt/Mens-CasualShirts.webp";
+import MCS1 from "../assets/CasualShirt/Mens-CasualShirt.webp";
 import MCS1_1 from "../assets/CasualShirt/Mens-CasualShirts1.webp";
 import MCS1_2 from "../assets/CasualShirt/Mens-CasualShirts2.webp";
 import MCS1_3 from "../assets/CasualShirt/Mens-CasualShirts3.webp";
+import MCS1_4 from "../assets/CasualShirt/Mens-CasualShirts.webp";
 
 import MCS2 from "../assets/CasualShirt/RedBlack-CheckShirt.webp";
 import MCS2_1 from "../assets/CasualShirt/RedBlack-CheckShirt1.webp";
@@ -66,17 +67,19 @@ export const products = [
   {
     id: 'GWMCS1', 
     name: 'Mens Gingham Check Shirt for Casual & Smart Casual Wear',         
-    price: 5499, 
-    salePrice: 4250, 
+    price: 5999, 
+    salePrice: 3950, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS1,
     hoverImage: MCS1_2,
      images: [
       MCS1,
-      MCS1_1,
       MCS1_2,
       MCS1_3,
+      MCS1_4,
+      MCS1_1,
+
     ],
     
     collections: ['MCS','MFS'],
@@ -110,19 +113,19 @@ export const products = [
     id: 'RBMCS2', 
     name: 'Red & Black Checkered Casual Shirt for Mens',         
     price: 5299, 
-    salePrice: 3699, 
+    salePrice: 3550, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS2,
-    hoverImage: MCS2_2,
+    hoverImage: MCS2_1,
      images: [
       MCS2,
       MCS2_1,
       MCS2_2,
     ],
     
-    collections: ['MCS','MFS'],
-    categories:['casual-shirt','formal-shirt'],
+    collections: ['MCS'],
+    categories:['casual-shirt'],
    description: [
   {
     heading: "Specifications",
@@ -154,8 +157,8 @@ export const products = [
   {
     id: 'PWMCS3', 
     name: 'Classic Fit Purple & White Check Gingham Dress Shirt for Men | Slim Fit Checked Casual Shirt',         
-    price: 5299, 
-    salePrice: 3699, 
+    price: 5999, 
+    salePrice: 3950, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS3,
@@ -198,7 +201,7 @@ export const products = [
   {
     id: 'PWMCS4', 
     name: 'Pink & White Striped Formal Dress Shirt for Men | Regular Fit Formal Wear',         
-    price: 5299, 
+    price: 5999, 
     salePrice: 3699, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
@@ -241,7 +244,7 @@ description: [
  {
     id: 'BMFS1', 
     name: 'Mens Tan Solid Dress Shirt | Khaki Regular Fit Formal Shirt',         
-    price: 5299, 
+    price: 5599, 
     salePrice: 3699, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
@@ -285,7 +288,7 @@ description: [
   {
     id: 'PMFS2', 
     name: 'Mens Solid Pink Dress Shirt | Classic Fit Light Pink Formal Wear',         
-    price: 5299, 
+    price: 5599, 
     salePrice: 3699, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
@@ -329,16 +332,16 @@ description: [
   {
     id: 'LBDPMFS3', 
     name: 'Mens Light Blue Utility Shirt with Dual Pockets | Regular Fit Casual Shirt',         
-    price: 5299, 
-    salePrice: 3699, 
+    price: 5999, 
+    salePrice: 3850, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
-    image: MFS2,
-    hoverImage: MFS2_2,
+    image: MFS3,
+    hoverImage: MFS3_2,
      images: [
-      MFS2,
-      MFS2_1,
-      MFS2_2,
+      MFS3,
+      MFS3_1,
+      MFS3_2,
     ],
     
     collections: ['MCS','MFS'],
