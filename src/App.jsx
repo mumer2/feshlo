@@ -14,6 +14,7 @@ import CartPage from './pages/CartPage'; // ⬅️ Import
 import Checkout from './pages/Checkout';
 import DeliveryProcess from './components/DeliveryProcess';
 import ReturnPolicy from './components/ReturnPolicy';
+import GreetingOverlay from './components/GreetingOverlay';
 
 export default function App() {
   return (
@@ -49,6 +50,7 @@ export default function App() {
       </main>
       
      
+     <GreetingOverlay />
       {/* Footer */}
       <Footer />
     </div>
