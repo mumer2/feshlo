@@ -8,6 +8,28 @@ import MCS2 from "../assets/CasualShirt/RedBlack-CheckShirt.webp";
 import MCS2_1 from "../assets/CasualShirt/RedBlack-CheckShirt1.webp";
 import MCS2_2 from "../assets/CasualShirt/RedBlack-CheckShirt2.webp";
 
+import MCS3 from "../assets/CasualShirt/PurpleWhiteCheck-Shirt.webp";
+import MCS3_1 from "../assets/CasualShirt/PurpleWhiteCheck-Shirt1.webp";
+import MCS3_2 from "../assets/CasualShirt/PurpleWhiteCheck-Shirt2.webp";
+
+import MCS4 from "../assets/CasualShirt/PinkWhite-LineShirt.webp";
+import MCS4_1 from "../assets/CasualShirt/PinkWhite-LineShirt1.webp";
+import MCS4_2 from "../assets/CasualShirt/PinkWhite-LineShirt2.webp";
+
+//Mens Formal Shirts
+import MFS1 from "../assets/FormalShirts/BrownFormal-Shirt.webp";
+import MFS1_1 from "../assets/FormalShirts/BrownFormal-Shirt1.webp";
+import MFS1_2 from "../assets/FormalShirts/BrownFormal-Shirt2.webp";
+
+import MFS2 from "../assets/FormalShirts/PinkFormal-Shirt.webp";
+import MFS2_1 from "../assets/FormalShirts/PinkFormal-Shirt1.webp";
+import MFS2_2 from "../assets/FormalShirts/PinkFormal-Shirt2.webp";
+
+import MFS3 from "../assets/FormalShirts/LightBlue-PocketsShirt.webp";
+import MFS3_1 from "../assets/FormalShirts/LightBlue-PocketsShirt1.webp";
+import MFS3_2 from "../assets/FormalShirts/LightBlue-PocketsShirt2.webp";
+
+
 // Watches
 import W1 from "../assets/Watches/W1.jpeg";
 import W1_1 from "../assets/Watches/W1-1.jpeg";
@@ -129,7 +151,232 @@ export const products = [
   },
 
 
+  {
+    id: 'PWMCS3', 
+    name: 'Classic Fit Purple & White Check Gingham Dress Shirt for Men | Slim Fit Checked Casual Shirt',         
+    price: 5299, 
+    salePrice: 3699, 
+    quantity: 25,
+    sizes: ["M", "L"], // ✅ only this product has sizes
+    image: MCS3,
+    hoverImage: MCS3_2,
+     images: [
+      MCS3,
+      MCS3_1,
+      MCS3_2,
+    ],
+    
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
+ description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Feshlo",
+      "Style: Purple & White Checkered",
+      "Fit: Regular Fit",
+      "Collar: Standard Spread Collar",
+      "Sleeve Length: Long Sleeve with Buttoned Cuffs",
+      "Material: Premium breathable cotton blend"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Bold purple and white checkered pattern for a fresh, modern look",
+      "Crisp stitching and fine detailing for added elegance",
+      "Smooth button closure with color-matched buttons",
+      "Ideal for casual gatherings and smart-casual occasions",
+      "Soft, lightweight, and durable fabric for all-day comfort"
+    ]
+  }
+]
+  },
 
+
+  
+  {
+    id: 'PWMCS4', 
+    name: 'Pink & White Striped Formal Dress Shirt for Men | Regular Fit Formal Wear',         
+    price: 5299, 
+    salePrice: 3699, 
+    quantity: 25,
+    sizes: ["M", "L"], // ✅ only this product has sizes
+    image: MCS4,
+    hoverImage: MCS4_2,
+     images: [
+      MCS4,
+      MCS4_1,
+      MCS4_2,
+    ],
+    
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
+description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Feshlo",
+      "Style: Pink & White Striped",
+      "Fit: Regular Fit",
+      "Collar: Standard Spread Collar",
+      "Sleeve Length: Long Sleeve with Buttoned Cuffs",
+      "Material: Premium breathable cotton blend"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Classic vertical pink and white stripe pattern for a refined look",
+      "Crisp tailoring and fine stitching for a sharp finish",
+      "Smooth button closure with white buttons for a clean touch",
+      "Perfect choice for office wear, business meetings, and semi-formal occasions",
+      "Lightweight, soft, and durable fabric for all-day comfort"
+    ]
+  }
+]
+  },
+
+// Mens Formal Shirts
+ {
+    id: 'BMFS1', 
+    name: 'Mens Tan Solid Dress Shirt | Khaki Regular Fit Formal Shirt',         
+    price: 5299, 
+    salePrice: 3699, 
+    quantity: 25,
+    sizes: ["M", "L"], // ✅ only this product has sizes
+    image: MFS1,
+    hoverImage: MFS1_2,
+     images: [
+      MFS1,
+      MFS1_1,
+      MFS1_2,
+    ],
+    
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
+description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Feshlo",
+      "Style: Solid Tan (Khaki/Brown)",
+      "Fit: Regular Fit",
+      "Collar: Standard Spread Collar",
+      "Sleeve Length: Long Sleeve with Buttoned Cuffs",
+      "Closure: Smooth Button-Front",
+      "Material: Premium breathable cotton blend"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Clean solid tan color (also described as khaki or light brown) for a sophisticated professional look",
+      "Crafted from premium cotton-blend fabric for softness, breathability, and all-day comfort",
+      "Classic tailoring with crisp stitching and refined finish",
+      "Smooth button-front closure with neatly designed cuffs",
+      "Versatile pairing with navy, charcoal, or grey trousers and suits",
+      "Perfect choice for office wear, business meetings, and semi-formal occasions"
+    ]
+  }
+]
+  },
+
+  {
+    id: 'PMFS2', 
+    name: 'Mens Solid Pink Dress Shirt | Classic Fit Light Pink Formal Wear',         
+    price: 5299, 
+    salePrice: 3699, 
+    quantity: 25,
+    sizes: ["M", "L"], // ✅ only this product has sizes
+    image: MFS2,
+    hoverImage: MFS2_2,
+     images: [
+      MFS2,
+      MFS2_1,
+      MFS2_2,
+    ],
+    
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
+description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Feshlo",
+      "Style: Solid Light Pink",
+      "Fit: Classic Fit",
+      "Collar: Standard Spread Collar",
+      "Sleeve Length: Long Sleeve with Buttoned Cuffs",
+      "Closure: Smooth Button-Front Placket",
+      "Material: Premium breathable cotton blend"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Elegant solid light pink color, ideal for business, weddings, and formal occasions",
+      "Crafted from premium cotton-blend fabric for all-day comfort and minimal wrinkling",
+      "Classic spread collar with sharp tailoring for a refined finish",
+      "Smooth button closure with neat cuffs for a clean, professional appearance",
+      "Versatile pairing with navy, grey, charcoal, or beige suits and trousers",
+      "Perfect balance of style and sophistication for work, semi-formal, and celebratory events"
+    ]
+  }
+]
+  },
+
+  {
+    id: 'LBDPMFS3', 
+    name: 'Mens Light Blue Utility Shirt with Dual Pockets | Regular Fit Casual Shirt',         
+    price: 5299, 
+    salePrice: 3699, 
+    quantity: 25,
+    sizes: ["M", "L"], // ✅ only this product has sizes
+    image: MFS2,
+    hoverImage: MFS2_2,
+     images: [
+      MFS2,
+      MFS2_1,
+      MFS2_2,
+    ],
+    
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
+description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Feshlo",
+      "Style: Light Blue Utility Shirt with Dual Pockets",
+      "Fit: Regular Fit",
+      "Collar: Standard Spread Collar",
+      "Sleeve Length: Long Sleeve with Buttoned Cuffs",
+      "Closure: Full Button-Down Front",
+      "Pockets: Two Buttoned Flap Chest Pockets",
+      "Material: Premium breathable cotton blend"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Clean solid light blue (sky blue) color for a versatile casual look",
+      "Two functional flap chest pockets add utility and rugged styling",
+      "Crafted from breathable cotton-blend fabric for durability and comfort",
+      "Regular fit silhouette provides a relaxed, easy-to-wear style",
+      "Smooth button-down closure with neat detailing",
+      "Pairs effortlessly with jeans, chinos, or cargo pants for casual and smart-casual occasions"
+    ]
+  }
+]
+  },
+
+
+
+
+
+
+// ----------------------------------------------------------------------------------
   // Watches
   {
     id: 'W1', 
