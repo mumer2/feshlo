@@ -144,9 +144,17 @@ export default function ProductDetail() {
             </div>
           )}
 
-          <p className="mt-3 text-blue-600 font-semibold">
+          {/* <p className="mt-3 text-blue-600 font-semibold">
             Available Quantity: {stock}
-          </p>
+          </p> */}
+          <p
+  className={`mt-3 font-semibold ${
+    stock > 0 ? "text-green-600" : "text-red-600"
+  }`}
+>
+  {stock > 0 ? "In Stock" : "Out of Stock"}
+</p>
+
 
           {product.sizes && product.sizes.length > 0 && (
             <div className="mt-4">
@@ -185,7 +193,7 @@ export default function ProductDetail() {
             </div>
           )}
 
-          <div className="mt-6 flex space-x-4">
+          {/* <div className="mt-6 flex space-x-4">
             <button
               onClick={handleAddToCart}
               className="px-6 py-2 bg-blue-600 text-white rounded cursor-pointer hover:bg-blue-700 transition"
@@ -198,7 +206,32 @@ export default function ProductDetail() {
             >
               Buy Now
             </button>
-          </div>
+          </div> */}
+          <div className="mt-6 flex space-x-4">
+  <button
+    onClick={handleAddToCart}
+    disabled={stock <= 0}
+    className={`px-6 py-2 rounded cursor-pointer transition ${
+      stock > 0
+        ? "bg-blue-600 text-white hover:bg-blue-700"
+        : "bg-gray-400 text-gray-200 cursor-not-allowed"
+    }`}
+  >
+    Add to Cart
+  </button>
+  <button
+    onClick={handleBuyNow}
+    disabled={stock <= 0}
+    className={`px-6 py-2 rounded cursor-pointer transition ${
+      stock > 0
+        ? "bg-green-600 text-white hover:bg-green-700"
+        : "bg-gray-400 text-gray-200 cursor-not-allowed"
+    }`}
+  >
+    Buy Now
+  </button>
+</div>
+
 
           <div className="mt-6">
             <h2 className="text-lg font-semibold">Product Description</h2>
