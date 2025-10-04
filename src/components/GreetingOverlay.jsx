@@ -10,7 +10,7 @@ const GreetingOverlay = () => {
 
   // Hide greeting after 3s
   useEffect(() => {
-    const timer = setTimeout(() => setShowGreeting(false), 5000);
+    const timer = setTimeout(() => setShowGreeting(false), 4000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -29,7 +29,7 @@ const GreetingOverlay = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 sm:px-6">
           {/* Greeting Box */}
           <div className="relative bg-white rounded-2xl p-5 sm:p-8 text-center shadow-2xl animate-fadeIn max-w-md w-full mx-auto">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-pink-600 leading-tight">
+            <h1 className="text-2xl sm:text-3xl md:text-3xl font-bold text-pink-600 leading-tight">
               ✨ Welcome to Feshlo ✨
             </h1>
             <p className="mt-3 text-gray-600 text-base sm:text-lg md:text-xl">
