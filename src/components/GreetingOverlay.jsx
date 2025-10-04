@@ -3,25 +3,36 @@ import Confetti from "react-confetti";
 
 const GreetingOverlay = () => {
   const [showGreeting, setShowGreeting] = useState(true);
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
 
+  // Hide greeting after 3s
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowGreeting(false);
-    }, 3000);
-
+    const timer = setTimeout(() => setShowGreeting(false), 5000);
     return () => clearTimeout(timer);
+  }, []);
+
+  // Update confetti dimensions on resize
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
     <>
       {showGreeting && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 sm:px-6">
           {/* Greeting Box */}
-          <div className="relative justify-center bg-white rounded-2xl p-8 text-center shadow-2xl animate-fadeIn">
-            <h1 className="text-3xl md:text-4xl font-bold text-pink-600">
+          <div className="relative bg-white rounded-2xl p-5 sm:p-8 text-center shadow-2xl animate-fadeIn max-w-md w-full mx-auto">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-pink-600 leading-tight">
               ✨ Welcome to Feshlo ✨
             </h1>
-            <p className="mt-2 text-gray-600 text-lg">
+            <p className="mt-3 text-gray-600 text-base sm:text-lg md:text-xl">
               Where Elegance is Redefined.
             </p>
 
@@ -30,7 +41,7 @@ const GreetingOverlay = () => {
               {new Array(15).fill(0).map((_, i) => (
                 <span
                   key={i}
-                  className="absolute w-3 h-3 bg-yellow-400 rounded-full glitter"
+                  className="absolute w-2 h-2 sm:w-3 sm:h-3 bg-yellow-400 rounded-full glitter"
                   style={{
                     top: `${Math.random() * 100}%`,
                     left: `${Math.random() * 100}%`,
@@ -42,7 +53,7 @@ const GreetingOverlay = () => {
           </div>
 
           {/* Confetti */}
-          <Confetti width={window.innerWidth} height={window.innerHeight} />
+          <Confetti width={windowSize.width} height={windowSize.height} />
         </div>
       )}
 
@@ -57,11 +68,11 @@ const GreetingOverlay = () => {
           animation: glitter 1.5s infinite;
         }
         @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
+          from { opacity: 0; transform: scale(0.9); }
+          to { opacity: 1; transform: scale(1); }
         }
         .animate-fadeIn {
-          animation: fadeIn 1s ease-in-out;
+          animation: fadeIn 0.8s ease-in-out;
         }
       `}</style>
     </>
