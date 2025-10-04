@@ -17,7 +17,7 @@ const GreetingOverlay = () => {
       {showGreeting && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
           {/* Greeting Box */}
-          <div className="relative bg-white rounded-2xl p-8 text-center shadow-2xl animate-fadeIn">
+          <div className="relative justify-center bg-white rounded-2xl p-8 text-center shadow-2xl animate-fadeIn">
             <h1 className="text-3xl md:text-4xl font-bold text-pink-600">
               ✨ Welcome to Feshlo ✨
             </h1>

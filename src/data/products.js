@@ -68,7 +68,7 @@ export const products = [
     id: 'GWMCS1', 
     name: 'Mens Gingham Check Shirt for Casual & Smart Casual Wear',         
     price: 5999, 
-    salePrice: 3250, 
+    salePrice: 2999, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS1,
@@ -113,7 +113,7 @@ export const products = [
     id: 'RBMCS2', 
     name: 'Red & Black Checkered Casual Shirt for Mens',         
     price: 5999, 
-    salePrice: 3150, 
+    salePrice: 2999, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS2,
@@ -158,7 +158,7 @@ export const products = [
     id: 'PWMCS3', 
     name: 'Classic Fit Purple & White Check Gingham Dress Shirt for Men | Slim Fit Checked Casual Shirt',         
     price: 5999, 
-    salePrice: 3250, 
+    salePrice: 2999, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS3,
@@ -202,7 +202,7 @@ export const products = [
     id: 'PWMCS4', 
     name: 'Pink & White Striped Formal Dress Shirt for Men | Regular Fit Formal Wear',         
     price: 5999, 
-    salePrice: 3299, 
+    salePrice: 2999, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS4,
@@ -244,8 +244,8 @@ description: [
  {
     id: 'BMFS1', 
     name: 'Mens Tan Solid Dress Shirt | Khaki Regular Fit Formal Shirt',         
-    price: 5599, 
-    salePrice: 3299, 
+    price: 5999, 
+    salePrice: 2999, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MFS1,
@@ -288,8 +288,8 @@ description: [
   {
     id: 'PMFS2', 
     name: 'Mens Solid Pink Dress Shirt | Classic Fit Light Pink Formal Wear',         
-    price: 5599, 
-    salePrice: 3299, 
+    price: 5999, 
+    salePrice: 2999, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MFS2,
@@ -333,7 +333,7 @@ description: [
     id: 'LBDPMFS3', 
     name: 'Mens Light Blue Utility Shirt with Dual Pockets | Regular Fit Casual Shirt',         
     price: 5999, 
-    salePrice: 3550, 
+    salePrice: 3150, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MFS3,

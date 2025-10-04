@@ -125,7 +125,7 @@ export default function Navbar() {
                         {link.subCategories.map((sub) => (
                           <button
                             key={sub.category}
-                            className="block w-full text-left px-4 py-2 hover:bg-gray-100"
+                            className="block w-full text-left px-4 py-2 hover:bg-gray-200"
                             onClick={() => {
                               navigate(`/shop?category=${sub.category}`);
                               setMensDropdownDesktop(false);
