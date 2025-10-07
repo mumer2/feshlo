@@ -30,6 +30,9 @@ import MFS3 from "../assets/FormalShirts/LightBlue-PocketsShirt.webp";
 import MFS3_1 from "../assets/FormalShirts/LightBlue-PocketsShirt1.webp";
 import MFS3_2 from "../assets/FormalShirts/LightBlue-PocketsShirt2.webp";
 
+import MFS4 from "../assets/FormalShirts/White Shirt.webp";
+import MFS4_1 from "../assets/FormalShirts/White Shirt-1.webp";
+
 
 // Watches
 import W1 from "../assets/Watches/W1.jpeg";
@@ -68,7 +71,7 @@ export const products = [
     id: 'GWMCS1', 
     name: 'Mens Gingham Check Shirt for Casual & Smart Casual Wear',         
     price: 5999, 
-    salePrice: 2999, 
+    salePrice: 2799, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS1,
@@ -113,7 +116,7 @@ export const products = [
     id: 'RBMCS2', 
     name: 'Red & Black Checkered Casual Shirt for Mens',         
     price: 5999, 
-    salePrice: 2999, 
+    salePrice: 2799, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS2,
@@ -158,7 +161,7 @@ export const products = [
     id: 'PWMCS3', 
     name: 'Classic Fit Purple & White Check Gingham Dress Shirt for Men | Slim Fit Checked Casual Shirt',         
     price: 5999, 
-    salePrice: 2999, 
+    salePrice: 2799, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS3,
@@ -202,7 +205,7 @@ export const products = [
     id: 'PWMCS4', 
     name: 'Pink & White Striped Formal Dress Shirt for Men | Regular Fit Formal Wear',         
     price: 5999, 
-    salePrice: 2999, 
+    salePrice: 2799, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MCS4,
@@ -245,7 +248,7 @@ description: [
     id: 'BMFS1', 
     name: 'Mens Tan Solid Dress Shirt | Khaki Regular Fit Formal Shirt',         
     price: 5999, 
-    salePrice: 2999, 
+    salePrice: 2799, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MFS1,
@@ -289,7 +292,7 @@ description: [
     id: 'PMFS2', 
     name: 'Mens Solid Pink Dress Shirt | Classic Fit Light Pink Formal Wear',         
     price: 5999, 
-    salePrice: 2999, 
+    salePrice: 2799, 
     quantity: 25,
     sizes: ["M", "L"], // ✅ only this product has sizes
     image: MFS2,
@@ -372,6 +375,52 @@ description: [
     ]
   }
 ]
+  },
+
+
+    {
+    id: 'WMFS4', 
+    name: 'Mens White Dress Shirt | Classic Fit Long Sleeve Formal Shirt',         
+    price: 5999, 
+    salePrice: 2899, 
+    quantity: 0,
+    sizes: ["M", "L"], // ✅ only this product has sizes
+    image: MFS4,
+    hoverImage: MFS4_1,
+     images: [
+      MFS4,
+      MFS4_1,
+    ],
+    
+    collections: ['MCS','MFS'],
+    categories:['casual-shirt','formal-shirt'],
+description: [
+  {
+    heading: "Specifications",
+    points: [
+      "Brand: Feshlo",
+      "Style: Classic White Dress Shirt",
+      "Fit: Classic Fit",
+      "Collar: Spread Collar",
+      "Sleeve Length: Long Sleeve with Buttoned Cuffs",
+      "Closure: Full Button-Down Front",
+      "Pockets: No Chest Pocket for a Clean, Formal Look",
+      "Material: Premium breathable cotton blend"
+    ]
+  },
+  {
+    heading: "Design & Details",
+    points: [
+      "Solid pure white color for a timeless, professional appearance",
+      "Crafted from soft, durable cotton-blend fabric for all-day comfort",
+      "Classic fit provides a structured yet comfortable silhouette",
+      "Refined spread collar and color-matched buttons for a polished finish",
+      "Smooth button-down closure ensures a crisp, neat presentation",
+      "Perfect for office wear, business meetings, formal events, and weddings"
+    ]
+  }
+]
+
   },
 
 
