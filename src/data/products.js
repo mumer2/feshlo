@@ -68,7 +68,7 @@ import W6_2 from "../assets/Watches/Hublot-2.webp";
 export const products = [
 // Mens Casual Shirts
   {
-    id: 'GWMCS1', 
+    id: 'GW-MCS1', 
     name: 'Mens Gingham Check Shirt for Casual & Smart Casual Wear',         
     price: 5999, 
     salePrice: 2799, 
@@ -113,7 +113,7 @@ export const products = [
   },
 
   {
-    id: 'RBMCS2', 
+    id: 'RB-MCS2', 
     name: 'Red & Black Checkered Casual Shirt for Mens',         
     price: 5999, 
     salePrice: 2799, 
@@ -158,7 +158,7 @@ export const products = [
 
 
   {
-    id: 'PWMCS3', 
+    id: 'PW-MCS3', 
     name: 'Classic Fit Purple & White Check Gingham Dress Shirt for Men | Slim Fit Checked Casual Shirt',         
     price: 5999, 
     salePrice: 2799, 
@@ -202,7 +202,7 @@ export const products = [
 
   
   {
-    id: 'PWMCS4', 
+    id: 'PW-MCS4', 
     name: 'Pink & White Striped Formal Dress Shirt for Men | Regular Fit Formal Wear',         
     price: 5999, 
     salePrice: 2799, 
@@ -245,7 +245,7 @@ description: [
 
 // Mens Formal Shirts
  {
-    id: 'BMFS1', 
+    id: 'LB-MFS1', 
     name: 'Mens Tan Solid Dress Shirt | Khaki Regular Fit Formal Shirt',         
     price: 5999, 
     salePrice: 2799, 
@@ -289,7 +289,7 @@ description: [
   },
 
   {
-    id: 'PMFS2', 
+    id: 'LP-MFS2', 
     name: 'Mens Solid Pink Dress Shirt | Classic Fit Light Pink Formal Wear',         
     price: 5999, 
     salePrice: 2799, 
@@ -333,7 +333,7 @@ description: [
   },
 
   {
-    id: 'LBDPMFS3', 
+    id: 'LBDP-MFS3', 
     name: 'Mens Light Blue Utility Shirt with Dual Pockets | Regular Fit Casual Shirt',         
     price: 5999, 
     salePrice: 3150, 
@@ -379,7 +379,7 @@ description: [
 
 
     {
-    id: 'WMFS4', 
+    id: 'W-MFS4', 
     name: 'Mens White Dress Shirt | Classic Fit Long Sleeve Formal Shirt',         
     price: 5999, 
     salePrice: 2899, 
@@ -431,7 +431,7 @@ description: [
 // ----------------------------------------------------------------------------------
   // Watches
   {
-    id: 'W1', 
+    id: 'G-W1', 
     name: 'Luxury Golden Diamond Texture Dial Mens Watch – Stylish Analog Watch for Casual & Formal Wear',         
     price: 3800, 
     salePrice: 1250, 
@@ -473,7 +473,7 @@ description: [
   },
 
    {
-    id: 'W2', 
+    id: 'SBB-W2', 
     name: 'Luxury Mens Watch Stylish Black Dial and Brown shade with Stainless Steel Strap',         
     price: 3500, 
     salePrice: 1199, 
@@ -515,7 +515,7 @@ description: [
   },
   
    {
-    id: 'W3', 
+    id: 'BR-W3', 
     name: 'KADMAN Mens Watch - Stylish Black Dial Stainless Steel Red Accent Timepiece for Modern Gents',         
     price: 3500, 
     salePrice: 1250, 
@@ -566,7 +566,7 @@ description: [
   },
 
    {
-    id: 'W4', 
+    id: 'S-W4', 
     name: 'Stylish Mens Blue Dial Quartz Watch – Stylish Stainless Steel Wristwatch for Mens',         
     price: 3500, 
     salePrice: 1199, 
@@ -607,7 +607,7 @@ description: [
 
 
     {
-    id: 'W5', 
+    id: 'AG-W5', 
     name: 'Stylish Floral Quartz Ladies Watch – Aqua Green Strap | Women Watches| Watch for Women',         
     price: 1999, 
     salePrice: 899, 
@@ -653,7 +653,7 @@ description: [
 
 
   {
-    id: 'W6', 
+    id: 'H-W6', 
     name: 'Luxury Hublot Style Chronograph Watch for Men – Premium Design with Rubber Strap',         
     price: 3599, 
     salePrice: 1999, 
