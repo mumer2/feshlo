@@ -611,7 +611,7 @@ description: [
     name: 'Stylish Floral Quartz Ladies Watch – Aqua Green Strap | Women Watches| Watch for Women',         
     price: 1999, 
     salePrice: 899, 
-    quantity: 10,
+    quantity: 0,
     image: W5,
     hoverImage: W5_1,
      images: [
