@@ -60,6 +60,14 @@ import W6 from "../assets/Watches/Hublot.webp";
 import W6_1 from "../assets/Watches/Hublot-1.webp";
 import W6_2 from "../assets/Watches/Hublot-2.webp";
 
+import W7 from "../assets/Watches/Blue Black Dial.webp";
+import W7_1 from "../assets/Watches/Blue Black Dial-1.webp";
+import W7_2 from "../assets/Watches/Blue Black Dial-2.webp";
+import W7_3 from "../assets/Watches/Blue Black Dial-3.webp";
+import W7_4 from "../assets/Watches/Blue Black Dial-4.webp";
+import W7_5 from "../assets/Watches/Blue Black Dial-5.webp";
+
+
 
 
 
@@ -599,6 +607,49 @@ description: [
     points: [
       "This beautiful wristwatch for men is a timeless piece that adds a premium touch to your outfit.",
       "A perfect gift for birthdays, anniversaries, or special events."
+    ]
+  }
+]
+
+  },
+
+    {
+    id: 'BBD-W7', 
+    name: 'Kadman Men’s Blue Dial Analog Watch | Stylish Black Strap Luxury Watch for Mens',         
+    price: 3500, 
+    salePrice: 950, 
+    quantity: 25,
+    image: W7,
+    hoverImage: W7_1,
+     images: [
+      W7,
+      W7_1,W7_2,W7_3,W7_4,W7_5
+    ],
+    
+    collection: 'watch',
+    category:'watches',
+  description: [
+  {
+    heading: "Key Features",
+    points: [
+      "Brand: Kadman",
+      "Movement: Quartz Analog",
+      "Dial Color: Deep Blue with Geometric Pattern",
+      "Strap: Polished Black Stainless Steel",
+      "Display: Analog with Minimalist Hour Markers",
+      "Water Resistance: Splash Resistant",
+      "Case Material: Durable Metal Alloy",
+      "Ideal for: Men / Gents",
+      "Occasion: Business, Casual, and Formal Wear"
+    ]
+  },
+  {
+    heading: "Product Overview",
+    points: [
+      "The Kadman Men's Blue Dial Watch is a sophisticated timepiece that blends elegance with precision.",
+      "Featuring a striking blue patterned dial and a glossy black stainless-steel strap, it offers a modern yet timeless appeal.",
+      "Perfect for formal occasions, business attire, or everyday wear, this watch adds a bold and stylish edge to any outfit.",
+      "A great choice for gifting on birthdays, anniversaries, or special occasions."
     ]
   }
 ]
