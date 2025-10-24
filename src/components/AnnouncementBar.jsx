@@ -4,7 +4,8 @@ const announcements = [
   "Cash on Delivery available",
   "New arrivals are here!",
   "Limited-time offer : Upto 50% off on all products",
-  "Pakistan Best Premium Quality Fashion Wears"
+  "Pakistan Best Premium Quality Fashion Wears",
+  "Get Extra 5% OFF on Bank Payments",
 ];
 
 export default function AnnouncementBar() {
